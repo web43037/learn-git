@@ -1,0 +1,46 @@
+{
+  "name": "cli-mine",
+  "version": "1.0.0",
+  "description": "learn how to write a CLI utility",
+  "main": "bin/lounger-cli.js",
+  "preferGlobal": true,
+  "directories": {
+    "lib": "lib",
+    "bin": "bin"
+  },
+  "scripts": {
+    "test-is-online": "ava --verbose ./tests/isonline.test.js",
+    "test-lounger-cli-URL": "ava --verbose ./tests/lounger-cli.test.js -- https://d59adba6-26e5-40d7-920c-3c5a573f1ae6-bluemix:121422f4cbda4f4c9f73a7d969ee340d2c5a42ab88c8fb906a8685b0a3fca64b@d59adba6-26e5-40d7-920c-3c5a573f1ae6-bluemix.cloudantnosqldb.appdomain.cloud",
+    "test_CRs": "ava --verbose ./tests/carriage-returns.test.js -- ./tests/draft-1.csv",
+    "test_assertions": "ava --verbose ./tests/assertions.test.js",
+    "test_baby-steps": "ava --verbose ./tests/baby-steps.js -- 1 2 3",
+    "test_callback": "ava --verbose ./tests/test-callback.js -- ./tests/draft-1.csv",
+    "test-env-not-found": "ava --verbose ./tests/env-not-found.test.js",
+    "@comment": "parms here used for config test-cli-mine"
+  },
+  "keywords": [
+    "practice",
+    "cloudant",
+    "CLI",
+    "ava",
+    "test"
+  ],
+  "author": "Craig",
+  "license": "ISC",
+  "dependencies": {
+    "@cloudant/cloudant": "^4.2.4",
+    "debug": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "jsome": "^2.5.0",
+    "nopt": "^4.0.3",
+    "npmlog": "^4.1.2"
+  },
+  "bugs": {
+    "url": "http://example.com/lounger/issues"
+  },
+  "devDependencies": {
+    "ava": "^3.7.0",
+    "marked": "^1.1.0",
+    "marked-man": "^0.7.0"
+  }
+}
