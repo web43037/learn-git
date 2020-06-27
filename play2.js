@@ -30,6 +30,10 @@ var newObject ={
 	"new": "new string"
 }
 
+let newO3={
+	"junk": "javaEnabled"
+}
+
 const some = {
     "id": "07328300d79e6b5fa2e54fa0914c4b20",
     "key": "07328300d79e6b5fa2e54fa0914c4b20",
