@@ -1,1 +1,1 @@
-// new feature on branch updates - make a change on this line in very-bad.
+// new feature on branch updates - make change on master
