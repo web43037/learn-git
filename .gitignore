@@ -2,3 +2,8 @@
 /session1
 /.idea/.gitignore
 .idea/
+*_BACKUP_*
+*_BASE_*
+*_LOCAL_*
+*_REMOTE_*
+*.orig
